@@ -27,4 +27,8 @@ class GreenEggsAndHam
     @text.split("\n\n")
   end
 
+  def lines
+    @text.split("\n").reject { |word| word.empty? }
+  end
+
 end
