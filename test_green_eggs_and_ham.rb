@@ -10,7 +10,6 @@ class GreenEggsAndHamTest < MiniTest::Test
   end
 
   def test_01_count_of_total_words
-    skip
     assert_equal 116, @book.word_count
   end
 
